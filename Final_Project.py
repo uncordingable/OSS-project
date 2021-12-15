@@ -12,3 +12,8 @@ print(subset.groupby('Squad_Size')['Market_Value_Of_Club_In_Millions'].mean())
 average_pay_by_Squad_Size = subset.groupby('Squad_Size')['Market_Value_Of_Club_In_Millions'].mean()
 
 average_pay_by_Squad_Size.plot()
+
+Top18_pay_by_Squad_Size=subset.groupby('Squad_Size')['Market_Value_Of_Top_18_Players_In_Millions'].mean()
+print(Top18_pay_by_Squad_Size)
+
+Top18_pay_by_Squad_Size.plot()
