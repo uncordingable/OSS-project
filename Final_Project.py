@@ -2,7 +2,7 @@ import pandas
 import matplotlib as mpl 
 import matplotlib.pyplot as plt
 
-df = pandas.read_csv('/workspace/malla/OSS-project/club.csv')
+df = pandas.read_csv('https://github.com/uncordingable/OSS-project.git/.csv')
 print(df)
 range_30 = list(range(30))
 subset = df.iloc[range_30]
